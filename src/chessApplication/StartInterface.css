@@ -1,0 +1,128 @@
+
+#root{
+	-fx-background-color: Orange;
+	-fx-focus-color:#B8860B;
+	-fx-faint-focus-color:#B8860B22;
+}
+
+
+
+.messages-evaluation{
+	-fx-fill: BLACK;
+	-fx-font-family: "Adobe Arabic";
+	-fx-font-size: 20.0;
+	-fx-text-alignment:  center ;
+	
+}
+
+
+.label{
+		-fx-alignment: center;
+}
+
+.symbol{
+	-fx-font-family: "Hayashi-Serif";
+	-fx-alignment: top-left;
+	-fx-font-size: 20;
+}
+
+#bottom{
+	
+	-fx-border-color: Maroon;
+	-fx-border-width: 1.5 1.5 1.5 1.5;
+	-fx-padding: 5.0 5.0 5.0 5.0; 
+	-fx-background-color: Chocolate	;
+	}
+.button{
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.button2{
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.button:pressed{
+	-fx-effect: null;
+}
+
+
+
+.black{
+	-fx-background-color: ForestGreen;
+}
+
+.white{
+	-fx-background-color: antiquewhite   ;
+}
+.top-black{
+	-fx-background-color: ForestGreen  ;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width: 	  1.5 0 0 0; 	
+}
+
+.top-white{
+	-fx-background-color: antiquewhite;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     1.5 0 0 0; 	
+}
+
+.left-black{
+	-fx-background-color: ForestGreen;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 0 0 1.5; 		
+}
+
+.left-white{
+	-fx-background-color: antiquewhite;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 0 0 1.5;
+}
+
+.right-black{
+	-fx-background-color: ForestGreen;	
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 1.5 0 0;
+}
+
+.right-white{
+	-fx-background-color: antiquewhite;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 1.5 0 0;
+}
+
+.bottom-black{
+	-fx-background-color: ForestGreen;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 0 1.5 0;	
+}
+
+.bottom-white{
+	-fx-background-color: antiquewhite;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 0 1.5 0;	
+}
+
+.topLeftCorner{
+	-fx-background-color: antiquewhite;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:    1.5 0 0 1.5;	
+}
+
+.topRightCorner{
+	-fx-background-color: ForestGreen;	
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     1.5 1.5 0 0;	
+}
+
+.bottomRightCorner{
+	-fx-background-color: antiquewhite;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 1.5 1.5 0;	
+}
+
+ .bottomLeftCorner{
+	-fx-background-color: ForestGreen;
+	-fx-border-color:     darkgoldenrod;
+	-fx-border-width:     0 0 1.5 1.5;		
+}
+ 
